@@ -13,6 +13,7 @@ public class firefox {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https:/google.com/");
 		Thread.sleep(2000);
+		driver.quit();
 	}
 
 }
