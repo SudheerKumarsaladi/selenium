@@ -12,6 +12,7 @@ public class io {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.youtube.com/");
 		Thread.sleep(2000);
+		driver.close();
 	}
 
 }
