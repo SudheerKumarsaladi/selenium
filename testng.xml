@@ -5,6 +5,7 @@
     <classes>
       <class name="selenium.edge"/>
       <class name="selenium.chrome"/>
+      <class name="selenium.firefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
